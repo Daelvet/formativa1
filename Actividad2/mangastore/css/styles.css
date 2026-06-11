@@ -4,9 +4,40 @@
    ===================================================== */
 
 /* Reset base */
-html {
+body {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 1.6rem; /* 1ren -> 10px */
+  background-image: url("../img/background.jpg");
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+}
+
+.contenedor {
+  margin: 0 auto;
+  width: 140rem;
+}
+
+.texto-principal {
+  color: white;
+  text-decoration: none;
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.navbar-items {
+  list-style: none;
+}
+
+.navbar-items {
+  color: white;
+  text-decoration: none;
 }
 
 *,
