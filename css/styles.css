@@ -113,7 +113,6 @@ body {
   display: flex;
   align-items: flex-start;
   background-color: #fff;
-  width: 100%;
 }
 
 .productos {
@@ -122,6 +121,7 @@ body {
 }
 
 .mas-vendidos {
+  width: 200px;
   background-color: #fff;
 }
 
